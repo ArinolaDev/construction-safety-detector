@@ -96,15 +96,6 @@ results.png ← Training curves
 
 ---
 
-## 🔍 What I Learned
-
-← WRITE 3-5 SENTENCES IN YOUR OWN WORDS HERE
-   What was the hardest part?
-   What surprised you about training?
-   What would you improve with more time?
-
----
-
 ## 🛠️ Built With
 
 - Python 3
