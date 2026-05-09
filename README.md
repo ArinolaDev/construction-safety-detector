@@ -6,7 +6,7 @@ The model was custom trained on 717 construction site images to detect safety vi
 ---
 
 ## 🚀 Live Demo
-👉 [Click here to try the app]() ← we will add this link after deployment
+👉 [Click here to try the app](https://construction-safety-detector.streamlit.app/) ← we will add this link after deployment
 
 ---
 
@@ -44,6 +44,14 @@ Input Image → YOLOv8 Model → Bounding Boxes → Safety Classification
 - Adjust confidence threshold with interactive slider
 - See detections side by side with original
 - Live webcam mode for real-time detection
+
+## 📷 Webcam Mode
+Webcam detection runs locally only. To use it:
+```bash
+python webcam_app.py
+```
+Cloud deployment supports image upload only, as cloud
+servers have no physical webcam access.
 
 ---
 
@@ -119,3 +127,5 @@ results.png ← Training curves
 
 *Built as Portfolio Project 2 of 10 demonstrating computer vision,
 transfer learning, and ML deployment skills.*
+
+👉 [Click here to try the app](https://construction-safety-detector.streamlit.app/)
